@@ -40,7 +40,8 @@ class DetailViewController: UIViewController {
                 switch result {
                 case let .success(characterTransformations):
                     DispatchQueue.main.async {
-                        self.transformations.append(contentsOf: characterTransformations)
+                        self.transformations.append(contentsOf: characterTransformations)                           
+                        self.transformations.sort { $0.name < $1.name }
                         if self.transformations.count > 0 {
                             self.transformationsButton.isHidden = false
                         }
