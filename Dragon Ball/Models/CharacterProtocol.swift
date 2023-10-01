@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol CharacterProtocol: Decodable {
+public protocol CharacterProtocol: Codable {
     
     var id: String { get }
     var name: String { get }
