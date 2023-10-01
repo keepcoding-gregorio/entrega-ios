@@ -9,32 +9,36 @@ import UIKit
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var userTextField: UITextField!
-    
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var logInButton: UIButton!
+    
+    private let dragonBallApi = DragonBallAPIDataProvider()
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    @IBAction func logInTapped(_ sender: Any) {
-        let model = NetworkModel()
-        model.login(user: userTextField.text ?? "", password: passwordTextField.text ?? "") {result in
+    @IBAction func tapLogIn(_ sender: Any) {
+        dragonBallApi.login(user: userTextField.text ?? "", password: passwordTextField.text ?? "") { [weak self] result in
             switch result {
-            case let .success(token):
-                print("Token: \(token)")
-//                model.getHeroes(token: token) { result in
-//                    switch result {
-//                    case let .success(heroes):
-//                        print("Heroes: \(heroes)")
-//                    case let .failure(error):
-//                        print("Error: \(error)")
-//                    }
-//                }
-            case let .failure(error):
-                print("Error: \(error)")
+            case .success(_):
+                    print("User authorized --> Successfully logged in")
+                    self?.dragonBallApi.getCharacters { result in
+                        switch result {
+                            case let .success(characters):
+                                DispatchQueue.main.async {
+                                    self?.navigationController?.setViewControllers([CharacterViewController(characters: characters)], animated: true)
+                                }
+                            case let .failure(error):
+                                print("DataLoadingError(Characters). Error description: \(error.localizedDescription)")
+                        }
+                    }
+                case let .failure(error):
+                    print("LogInError. Error description: \(error.localizedDescription)")
             }
-            
         }
     }
     
 }
+
+

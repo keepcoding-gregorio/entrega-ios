@@ -9,37 +9,49 @@
 /* Begin PBXBuildFile section */
 		D675DF572AC7993B008307DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF562AC7993B008307DD /* AppDelegate.swift */; };
 		D675DF592AC7993B008307DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF582AC7993B008307DD /* SceneDelegate.swift */; };
-		D675DF5B2AC7993B008307DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF5A2AC7993B008307DD /* ViewController.swift */; };
 		D675DF602AC7993C008307DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D675DF5F2AC7993C008307DD /* Assets.xcassets */; };
 		D675DF632AC7993C008307DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D675DF612AC7993C008307DD /* LaunchScreen.storyboard */; };
 		D675DF732AC79A5C008307DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF712AC79A5C008307DD /* LoginViewController.swift */; };
 		D675DF742AC79A5C008307DD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D675DF722AC79A5C008307DD /* LoginViewController.xib */; };
-		D675DF772AC79F6F008307DD /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF762AC79F6F008307DD /* NetworkModel.swift */; };
-		D675DF7E2AC8DF77008307DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF7C2AC8DF77008307DD /* HomeViewController.swift */; };
-		D675DF7F2AC8DF77008307DD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D675DF7D2AC8DF77008307DD /* HomeViewController.xib */; };
 		D675DF822AC8DF8C008307DD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF802AC8DF8C008307DD /* DetailViewController.swift */; };
 		D675DF832AC8DF8C008307DD /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D675DF812AC8DF8C008307DD /* DetailViewController.xib */; };
-		D675DF872AC8E108008307DD /* TransformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF852AC8E108008307DD /* TransformationViewController.swift */; };
-		D675DF882AC8E108008307DD /* TransformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D675DF862AC8E108008307DD /* TransformationViewController.xib */; };
+		D675DF972AC8EDA3008307DD /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF952AC8EDA3008307DD /* CharacterTableViewCell.swift */; };
+		D675DF982AC8EDA3008307DD /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D675DF962AC8EDA3008307DD /* CharacterTableViewCell.xib */; };
+		D675DF9A2AC908BE008307DD /* DragonBallAPIDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF992AC908BE008307DD /* DragonBallAPIDataProvider.swift */; };
+		D675DF9E2AC90994008307DD /* APIErrorsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DF9D2AC90994008307DD /* APIErrorsEnum.swift */; };
+		D675DFA32AC90B18008307DD /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DFA22AC90B18008307DD /* LocalStorageService.swift */; };
+		D675DFA52AC90BB5008307DD /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DFA42AC90BB5008307DD /* CharacterModel.swift */; };
+		D675DFA72AC90E1C008307DD /* CharacterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DFA62AC90E1C008307DD /* CharacterProtocol.swift */; };
+		D675DFA92AC91179008307DD /* TransformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DFA82AC91179008307DD /* TransformationModel.swift */; };
+		D675DFAB2AC91CB9008307DD /* DragonBallAPIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DFAA2AC91CB9008307DD /* DragonBallAPIConstants.swift */; };
+		D675DFAD2AC923E0008307DD /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DFAC2AC923E0008307DD /* ImageService.swift */; };
+		D675DFB52AC98590008307DD /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DFB32AC98590008307DD /* CharacterViewController.swift */; };
+		D675DFB62AC98590008307DD /* CharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D675DFB42AC98590008307DD /* CharacterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D675DF532AC7993B008307DD /* Dragon Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dragon Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D675DF562AC7993B008307DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D675DF582AC7993B008307DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D675DF5A2AC7993B008307DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D675DF5F2AC7993C008307DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D675DF622AC7993C008307DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D675DF642AC7993C008307DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D675DF712AC79A5C008307DD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D675DF722AC79A5C008307DD /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		D675DF762AC79F6F008307DD /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
-		D675DF7C2AC8DF77008307DD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		D675DF7D2AC8DF77008307DD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		D675DF802AC8DF8C008307DD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D675DF812AC8DF8C008307DD /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
-		D675DF852AC8E108008307DD /* TransformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationViewController.swift; sourceTree = "<group>"; };
-		D675DF862AC8E108008307DD /* TransformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformationViewController.xib; sourceTree = "<group>"; };
+		D675DF952AC8EDA3008307DD /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		D675DF962AC8EDA3008307DD /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
+		D675DF992AC908BE008307DD /* DragonBallAPIDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallAPIDataProvider.swift; sourceTree = "<group>"; };
+		D675DF9D2AC90994008307DD /* APIErrorsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorsEnum.swift; sourceTree = "<group>"; };
+		D675DFA22AC90B18008307DD /* LocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
+		D675DFA42AC90BB5008307DD /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		D675DFA62AC90E1C008307DD /* CharacterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterProtocol.swift; sourceTree = "<group>"; };
+		D675DFA82AC91179008307DD /* TransformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationModel.swift; sourceTree = "<group>"; };
+		D675DFAA2AC91CB9008307DD /* DragonBallAPIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallAPIConstants.swift; sourceTree = "<group>"; };
+		D675DFAC2AC923E0008307DD /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		D675DFB32AC98590008307DD /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		D675DFB42AC98590008307DD /* CharacterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +84,12 @@
 		D675DF552AC7993B008307DD /* Dragon Ball */ = {
 			isa = PBXGroup;
 			children = (
-				D675DF792AC8DF2A008307DD /* DataProviders */,
+				D675DFA12AC90AE8008307DD /* Services */,
+				D675DF792AC8DF2A008307DD /* Data Providers */,
 				D675DF782AC8DEC4008307DD /* Views */,
 				D675DF752AC79F44008307DD /* Models */,
 				D675DF562AC7993B008307DD /* AppDelegate.swift */,
 				D675DF582AC7993B008307DD /* SceneDelegate.swift */,
-				D675DF5A2AC7993B008307DD /* ViewController.swift */,
 				D675DF5F2AC7993C008307DD /* Assets.xcassets */,
 				D675DF612AC7993C008307DD /* LaunchScreen.storyboard */,
 				D675DF642AC7993C008307DD /* Info.plist */,
@@ -97,7 +109,11 @@
 		D675DF752AC79F44008307DD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D675DF762AC79F6F008307DD /* NetworkModel.swift */,
+				D675DF9D2AC90994008307DD /* APIErrorsEnum.swift */,
+				D675DFA42AC90BB5008307DD /* CharacterModel.swift */,
+				D675DFA62AC90E1C008307DD /* CharacterProtocol.swift */,
+				D675DFA82AC91179008307DD /* TransformationModel.swift */,
+				D675DFAA2AC91CB9008307DD /* DragonBallAPIConstants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -105,28 +121,20 @@
 		D675DF782AC8DEC4008307DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D675DF842AC8E0EB008307DD /* Transformation */,
+				D675DFAE2AC927A4008307DD /* Characters Table */,
+				D675DF942AC8ED8A008307DD /* Character */,
 				D675DF7B2AC8DF4B008307DD /* Detail */,
-				D675DF7A2AC8DF39008307DD /* Home */,
 				D675DF6E2AC799EC008307DD /* Login */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		D675DF792AC8DF2A008307DD /* DataProviders */ = {
+		D675DF792AC8DF2A008307DD /* Data Providers */ = {
 			isa = PBXGroup;
 			children = (
+				D675DF992AC908BE008307DD /* DragonBallAPIDataProvider.swift */,
 			);
-			path = DataProviders;
-			sourceTree = "<group>";
-		};
-		D675DF7A2AC8DF39008307DD /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				D675DF7C2AC8DF77008307DD /* HomeViewController.swift */,
-				D675DF7D2AC8DF77008307DD /* HomeViewController.xib */,
-			);
-			path = Home;
+			path = "Data Providers";
 			sourceTree = "<group>";
 		};
 		D675DF7B2AC8DF4B008307DD /* Detail */ = {
@@ -138,13 +146,31 @@
 			path = Detail;
 			sourceTree = "<group>";
 		};
-		D675DF842AC8E0EB008307DD /* Transformation */ = {
+		D675DF942AC8ED8A008307DD /* Character */ = {
 			isa = PBXGroup;
 			children = (
-				D675DF852AC8E108008307DD /* TransformationViewController.swift */,
-				D675DF862AC8E108008307DD /* TransformationViewController.xib */,
+				D675DF952AC8EDA3008307DD /* CharacterTableViewCell.swift */,
+				D675DF962AC8EDA3008307DD /* CharacterTableViewCell.xib */,
 			);
-			path = Transformation;
+			path = Character;
+			sourceTree = "<group>";
+		};
+		D675DFA12AC90AE8008307DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D675DFA22AC90B18008307DD /* LocalStorageService.swift */,
+				D675DFAC2AC923E0008307DD /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D675DFAE2AC927A4008307DD /* Characters Table */ = {
+			isa = PBXGroup;
+			children = (
+				D675DFB32AC98590008307DD /* CharacterViewController.swift */,
+				D675DFB42AC98590008307DD /* CharacterViewController.xib */,
+			);
+			path = "Characters Table";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,12 +231,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D675DFB62AC98590008307DD /* CharacterViewController.xib in Resources */,
 				D675DF632AC7993C008307DD /* LaunchScreen.storyboard in Resources */,
 				D675DF602AC7993C008307DD /* Assets.xcassets in Resources */,
+				D675DF982AC8EDA3008307DD /* CharacterTableViewCell.xib in Resources */,
 				D675DF832AC8DF8C008307DD /* DetailViewController.xib in Resources */,
 				D675DF742AC79A5C008307DD /* LoginViewController.xib in Resources */,
-				D675DF882AC8E108008307DD /* TransformationViewController.xib in Resources */,
-				D675DF7F2AC8DF77008307DD /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,13 +248,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D675DF732AC79A5C008307DD /* LoginViewController.swift in Sources */,
-				D675DF5B2AC7993B008307DD /* ViewController.swift in Sources */,
+				D675DFA52AC90BB5008307DD /* CharacterModel.swift in Sources */,
+				D675DFAB2AC91CB9008307DD /* DragonBallAPIConstants.swift in Sources */,
+				D675DFA32AC90B18008307DD /* LocalStorageService.swift in Sources */,
+				D675DFA72AC90E1C008307DD /* CharacterProtocol.swift in Sources */,
+				D675DF9E2AC90994008307DD /* APIErrorsEnum.swift in Sources */,
+				D675DFB52AC98590008307DD /* CharacterViewController.swift in Sources */,
+				D675DF972AC8EDA3008307DD /* CharacterTableViewCell.swift in Sources */,
 				D675DF572AC7993B008307DD /* AppDelegate.swift in Sources */,
-				D675DF772AC79F6F008307DD /* NetworkModel.swift in Sources */,
+				D675DFA92AC91179008307DD /* TransformationModel.swift in Sources */,
 				D675DF592AC7993B008307DD /* SceneDelegate.swift in Sources */,
-				D675DF7E2AC8DF77008307DD /* HomeViewController.swift in Sources */,
 				D675DF822AC8DF8C008307DD /* DetailViewController.swift in Sources */,
-				D675DF872AC8E108008307DD /* TransformationViewController.swift in Sources */,
+				D675DF9A2AC908BE008307DD /* DragonBallAPIDataProvider.swift in Sources */,
+				D675DFAD2AC923E0008307DD /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
